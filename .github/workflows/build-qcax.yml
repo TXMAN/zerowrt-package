@@ -27,8 +27,6 @@ jobs:
       fail-fast: false
       matrix:
         CONFIG: [
-          IPQ50XX-WiFi_NO,
-          IPQ50XX-WiFi_YES,
           IPQ60XX-WiFi_NO,
           IPQ60XX-WiFi_YES,
           IPQ807X-WiFi_NO,

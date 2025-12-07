@@ -15,8 +15,6 @@ on:
         type: choice
         default: 'IPQ60XX-WiFi_NO'
         options:
-          - IPQ50XX-WiFi_NO
-          - IPQ50XX-WiFi_YES
           - IPQ60XX-WiFi_NO
           - IPQ60XX-WiFi_YES
           - IPQ807X-WiFi_NO
