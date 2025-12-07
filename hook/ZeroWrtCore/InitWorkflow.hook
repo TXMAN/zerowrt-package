@@ -8,7 +8,7 @@ source "$ZD_ScriptLibPath/mergeRepo.sh"
 
 # --------------------------------------------------
 
-mergeArr=('zero-dream/ZeroWrt-Firmware-CI')
+mergeArr=('zero-dream/zerowrt-firmware')
 mergeRepo 'mergeArr'
 
 # --------------------------------------------------

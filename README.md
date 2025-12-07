@@ -1,4 +1,4 @@
-### ZeroWrt-Package-CI
+### ZeroWrt-Package
 
 Package download for ZeroWrt (Immortalwrt) firmware
 
@@ -10,7 +10,7 @@ The forked repository cannot be compiled correctly
 
 ### Firmware Download
 
-https://github.com/zero-dream/ZeroWrt-Firmware-CI
+https://github.com/zero-dream/zerowrt-firmware
 
 ### Reference Projects
 
@@ -20,9 +20,9 @@ https://github.com/davidtall/OpenWRT-CI
 
 ### Directory Description
 
-zerodream ------ ZeroDream-CI Private Directory
+zerodream ------ ZeroDream Private Directory
 
-hook ------ ZeroDream-CI SpecialUse Directory
+hook ------ Workflow SpecialUse Directory
 
 application ------ Application Directory
 
