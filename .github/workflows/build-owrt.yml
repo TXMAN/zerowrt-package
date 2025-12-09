@@ -27,7 +27,8 @@ jobs:
       fail-fast: false
       matrix:
         CONFIG: [
-          MEDIATEK,
+          MEDIATEK-01,
+          MEDIATEK-02,
           ROCKCHIP,
           X86,
         ]
@@ -65,6 +66,6 @@ jobs:
 
   clean:
     name: clean-release
-    if: ${{inputs.ONLY_CONFIG}} == 'false'
+    if: inputs.ONLY_CONFIG == 'false'
     needs: [build]
     uses: ./.github/workflows/clean-release.yml
