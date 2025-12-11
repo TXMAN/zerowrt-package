@@ -12,7 +12,7 @@ source "$ZD_ScriptLibPath/createPath.sh"
 
 # ! 由 ZeroDream 私有
 
-[[ -z "$ZeroDream_Secret" ]] && exit 2
+#[[ -z "$ZeroDream_Secret" ]] && exit 2
 
 # ParseZeroWrtPackage
 outputPath="$CI_TempPath/ParseZeroWrtPackage" && mkdir -p "$outputPath"
