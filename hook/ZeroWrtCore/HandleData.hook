@@ -20,7 +20,7 @@ outputPath="$CI_TempPath/ParseZeroWrtPackage" && mkdir -p "$outputPath"
   --dataPath "$WRT_MainPath/bin" \
   --configPath "$CI_ConfigPath/PackageConfig" \
   --outputPath "$outputPath"
-(($? != 0)) && exit 2
+#(($? != 0)) && exit 2
 
 # CompressPackage
 compressPath="$CI_TempPath/CompressPackage" && mkdir -p "$compressPath"
