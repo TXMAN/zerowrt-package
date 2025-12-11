@@ -29,8 +29,8 @@ jobs:
         CONFIG: [
           MEDIATEK-01,
           MEDIATEK-02,
-          ROCKCHIP,
-          X86,
+   #       ROCKCHIP,
+   #       X86,
         ]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [owrt]
